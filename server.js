@@ -20,7 +20,7 @@ app.get('/getMobos/:sortOptions', (req, res) => {
   let sortOptions = {socket: [req.params.sortOptions]};
   pcpartpicker.getMotherboards(sortOptions, function(mobos) {
     res.send(mobos);
-    console.log("mobos", mobos);
+    // console.log("mobos", mobos);
   });
   // request.get(apiReq, (err, _, body) => {
   //   res.send(body)
