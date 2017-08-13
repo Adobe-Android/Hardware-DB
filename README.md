@@ -17,6 +17,6 @@ Build the beginnings of a system in the application to make sure you don't waste
 I'm now using a modified version of a Node.js API to retrieve parts from PCPartPicker
 by Rishi Masand located at https://github.com/darthbatman
 
-## license
+## License
 
 MIT © [David Brown](https://github.com/Adobe-Android)
