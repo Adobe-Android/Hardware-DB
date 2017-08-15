@@ -41,8 +41,9 @@ app.get('/getCPUs/:sortOptions', (req, res) => {
 app.get('/getMem/:sortOptions', (req, res) => {
   // TODO Add Speed metric
   let sortOptions = {
-    size: ["16GB (2x8)"], 
-    speed: ["DDR4-3733"]
+    // maxRAM (ramSlotsxmaxRAM)
+    size: [req.params.sortOptions], 
+    speed: ["DDR4-2400", "DDR4-2666", "DDR4-3000", "DDR4-3200", "DDR4-3466", "DDR4-3600"]
   };
 
   pcpartpicker.getMemory(sortOptions, function(mem) {
