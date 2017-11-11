@@ -2,21 +2,44 @@
 A part of MemDB, a web application to help you choose the right kit of RAM for your system.
 The front-end portion can be found here https://github.com/Adobe-Android/MemDB
 
+
+# MemDB
+A web application to help you choose the right kit of RAM for your system.
+
 ## Future Plans
-Add advanced properties to RAM like more in-depth timings, DRAM manufacturer, and Die type.
-Example: 
-DRAM Manufacturer : Samsung 
-Die Type: (B-Die)
-Advanced Timings: 
-["CL": "16", "RCD": "18", "RP": "18", "RAS": "38", "RC": "56", "CR": "2T", "RFC": "560", "RFC2": "416", "RFC4": "256", "RRDL": "8", "RRDS": "6", "FAW": "39"]
+This project will stick around, but future innovation will likely take place in another form. I plan to build a hardware API (to enable the kind of things I want moving forward) and the front-end for that will likely be a minimal example of its capabilities.
 
 ## Use
 Build the beginnings of a system in the application to make sure you don't waste money on a RAM kit your CPU or Motherboard don't even support.
+
+## Installation
+
+Clone this repository to your local machine
+
+Install necessary dependencies:
+
+```
+npm install
+```
+
+Start the server:
+
+```
+npm start
+```
 
 ## API
 I'm now using a modified version of a Node.js API to retrieve parts from PCPartPicker
 by Rishi Masand located at https://github.com/darthbatman
 
+## Technologies
+
+* [Node.js](https://nodejs.org/en/)
+* [Firebase](https://firebase.google.com/) 
+* [Cheerio](https://github.com/cheeriojs/cheerio)
+* [Request.js](https://github.com/request/request) 
+
 ## License
 
 MIT © [David Brown](https://github.com/Adobe-Android)
+
