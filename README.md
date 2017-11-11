@@ -2,10 +2,6 @@
 A part of MemDB, a web application to help you choose the right kit of RAM for your system.
 The front-end portion can be found here https://github.com/Adobe-Android/MemDB
 
-
-# MemDB
-A web application to help you choose the right kit of RAM for your system.
-
 ## Future Plans
 This project will stick around, but future innovation will likely take place in another form. I plan to build a hardware API (to enable the kind of things I want moving forward) and the front-end for that will likely be a minimal example of its capabilities.
 
@@ -42,4 +38,3 @@ by Rishi Masand located at https://github.com/darthbatman
 ## License
 
 MIT © [David Brown](https://github.com/Adobe-Android)
-
