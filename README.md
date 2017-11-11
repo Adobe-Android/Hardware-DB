@@ -31,7 +31,7 @@ by Rishi Masand located at https://github.com/darthbatman
 ## Technologies
 
 * [Node.js](https://nodejs.org/en/)
-* [Firebase](https://firebase.google.com/) 
+* [Express](https://expressjs.com/) 
 * [Cheerio](https://github.com/cheeriojs/cheerio)
 * [Request.js](https://github.com/request/request) 
 
