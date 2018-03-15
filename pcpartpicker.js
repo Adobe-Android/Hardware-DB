@@ -662,6 +662,9 @@ var getCPUs = function(sortOptions, cb){
   var priceArray = [];
   var coreArray = [];
 
+  console.log(cb);
+  
+
   var socketEquivalences = {
     "AM1": 27,
     "AM3": 3,

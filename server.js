@@ -1,10 +1,9 @@
 'use strict'
 
-
 const express = require('express');
 const pcpartpicker = require('./pcpartpicker');
 const app = express()
-const port = process.env.PORT || 6060;
+const port = process.env.PORT || 8000;
 app.set('port', port)
 const request = require('request');
 
@@ -14,7 +13,6 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
-
 
 app.get('/getMobos/:sortOptions', (req, res) => {
   let sortOptions = {socket: [req.params.sortOptions]};
@@ -27,11 +25,21 @@ app.get('/getMobos/:sortOptions', (req, res) => {
   // });
 });
 
+pcpartpicker.getCPUs('AMD Ryzen 1700', function (CPUs) {
+  // console.log(CPUs); // prints all CPUs
+  console.log(CPUs[0]); // prints first listed CPU
+  // console.log(CPUs[0].name); // prints name of first listed CPU
+  // console.log(CPUs[0].price); // prints price of first listed CPU
+  // console.log(CPUs[0].speed); // prints speed of first listed CPU
+  // console.log(CPUs[0].tdp); // prints TDP of first listed CPU
+  // console.log(CPUs[0].cores); // prints cores of first listed CPU
+});
+
 app.get('/getCPUs/:sortOptions', (req, res) => {
   let sortOptions = {socket: [req.params.sortOptions]};
   pcpartpicker.getCPUs(sortOptions, function(cpus) {
     res.send(cpus);
-    // console.log("cpus", cpus);
+    console.log("cpus", cpus);
   });
   // request.get(apiReq, (err, _, body) => {
   //   res.send(body)
