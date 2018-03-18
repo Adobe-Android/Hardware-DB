@@ -660,10 +660,7 @@ var getCPUs = function(sortOptions, cb){
   var speedArray = [];
   var tdpArray = [];
   var priceArray = [];
-  var coreArray = [];
-
-  console.log(cb);
-  
+  var coreArray = [];  
 
   var socketEquivalences = {
     "AM1": 27,

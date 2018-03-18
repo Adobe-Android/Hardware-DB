@@ -1,5 +1,5 @@
 {
-  "name": "Open-Builder",
+  "name": "hardware-db",
   "version": "1.0.0",
   "description": "An open and extensive computer hardware API.",
   "main": "server.js",
@@ -16,12 +16,9 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "pg": "^7.4.1",
-    "pg-hstore": "^2.3.2",
-    "request": "^2.85.0",
-    "sequelize": "^4.36.1"
+    "request": "^2.85.0"
   },
   "devDependencies": {
-    "http-server": "^0.11.1",
     "nodemon": "^1.17.2"
   }
 }
