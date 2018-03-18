@@ -1,12 +1,32 @@
-# MemDB-server
-A part of MemDB, a web application to help you choose the right kit of RAM for your system.
-The front-end portion can be found here https://github.com/Adobe-Android/MemDB
+# Hardware-DB
+An open and extensive computer hardware API (More coming soon).
 
 ## Future Plans
-This project will stick around, but future innovation will likely take place in another form. I plan to build a hardware API (to enable the kind of things I want moving forward) and the front-end for that will likely be a minimal example of its capabilities.
+This is the future of my old MemDB-server project. I'm going to use many of the same resources that I used to build my own hardware database and expand the data from there to include more advanced specifications on all computer parts. 
+
+To give you a small sample, these are the specs I'd like to have just for the CPUs.
+
+- Name
+- Price
+- Architecture
+- Socket
+- Base Clock
+- Boost Clock
+- Cores
+- Threads
+- TDP
+- L3 Cache
+- iGPU (Bool value)
+- Thermal Solution / CPU cooler included (Bool value)
+- Unlocked (Bool value)
+- Manufacturing node (eg. 14nm, 22nm, etc.)
+- Number of Memory Channels
+- Supported JEDEC Memory Clock
+- Die Configuration (eg. 4+0, 4+4, 2+2, etc.)
+- Number of PCIe Lanes
 
 ## Use
-Build the beginnings of a system in the application to make sure you don't waste money on a RAM kit your CPU or Motherboard don't even support.
+Coming soon.
 
 ## Installation
 
@@ -24,16 +44,13 @@ Start the server:
 npm start
 ```
 
-## API
-I'm now using a modified version of a Node.js API to retrieve parts from PCPartPicker
-by Rishi Masand located at https://github.com/darthbatman
-
 ## Technologies
 
 * [Node.js](https://nodejs.org/en/)
 * [Express](https://expressjs.com/) 
 * [Cheerio](https://github.com/cheeriojs/cheerio)
-* [Request.js](https://github.com/request/request) 
+* [Request.js](https://github.com/request/request)
+* [node-pg](https://github.com/brianc/node-postgres)
 
 ## License
 
