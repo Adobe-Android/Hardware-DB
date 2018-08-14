@@ -23,7 +23,7 @@ To give you a small sample, these are the specs I'd like to have just for the CP
 - Socket (TR4)
 - TDP (250W)
 - Integrated Graphics (Bool)
-- Thermal Solution
+- Thermal Solution (Bool)
 - L1
 - L2
 - L3
@@ -35,8 +35,8 @@ To give you a small sample, these are the specs I'd like to have just for the CP
 - Memory Channels (4)
 - Maximum Supported Memory (1 TiB)
 - ECC Support (Bool)
-- PCI Express Revision
-- PCI Express Lanes
+- PCI Express Revision (3.0)
+- PCI Express Lanes (60)
 - Virtualization Extensions (Bool)
 - Die Count (4)
 - Max CPU Cofig (1)
