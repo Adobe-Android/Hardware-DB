@@ -1,5 +1,5 @@
 {
-  "name": "meetupz",
+  "name": "hardware-db",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
@@ -30,6 +30,6 @@
     "type": "",
     "url": ""
   },
-  "license": "UNLICENSED",
-  "description": "meetupz"
+  "license": "MIT",
+  "description": "An open and extensive personal computer hardware API"
 }
